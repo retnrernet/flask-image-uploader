@@ -186,16 +186,7 @@ def home():
 }
 
 </style>
-<h3>Image Uploader</h3>
-<p>Upload an image for everyone to see. Valid images are pushed to everyone
-currently connected, and only the most recent %s images are saved.</p>
-<p>The complete source for this Flask web service can be found at:
-<a href="https://github.com/bboe/flask-image-uploader">https://github.com/bboe/flask-image-uploader</a></p>
-<p class="notice">Disclaimer: The author of this application accepts no responsibility for the
-images uploaded to this web service. To discourage the submission of obscene images, IP
-addresses with the last two octets hidden will be visibly associated with uploaded images.</p>
-<noscript>Note: You must have javascript enabled in order to upload and
-dynamically view new images.</noscript>
+<h3>Загрузить видео (до 200 мб)</h3>
 <fieldset>
   <p id="status">Select an image</p>
   <div id="progressbar"></div>
